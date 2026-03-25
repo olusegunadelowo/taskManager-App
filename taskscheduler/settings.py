@@ -105,7 +105,7 @@ DATABASES = {
         'NAME': 'tasksappDB',
         'USER': 'postgres',
         'PASSWORD': 'Ayonitemi!1',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '5433',
        
     }
