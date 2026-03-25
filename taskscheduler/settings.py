@@ -34,7 +34,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse('postgresql://tasksappdb_user:8B9pfy3ffaE0wlekW7rtedADhUtwIroG@dpg-d6taun0gjchc73carf8g-a.oregon-postgres.render.com/tasksappdb')
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
