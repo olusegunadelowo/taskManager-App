@@ -93,26 +93,26 @@ WSGI_APPLICATION = 'taskscheduler.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+#DATABASES = {
+ #   'default': {
+ #       'ENGINE': 'django.db.backends.sqlite3',
+  #      'NAME': BASE_DIR / 'db.sqlite3',
+   # }
+#}
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'tasksappDB',
+        'USER': 'postgres',
+        'PASSWORD': 'Ayonitemi!1',
+        'HOST': 'localhost',
+        'PORT': '5433',
+       
     }
 }
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql',
-#        'NAME': 'tasksappDB',
-#        'USER': 'postgres',
-#        'PASSWORD': 'Ayonitemi!1',
-#        'HOST': 'localhost',
-#        'PORT': '5433',
-       
-#    }
-#}
-
-#DATABASES['default'] = dj_database_url.parse('postgresql://tasksappdb_user:8B9pfy3ffaE0wlekW7rtedADhUtwIroG@dpg-d6taun0gjchc73carf8g-a.oregon-postgres.render.com/tasksappdb')
+DATABASES['default'] = dj_database_url.parse('postgresql://tasksappdb_user:8B9pfy3ffaE0wlekW7rtedADhUtwIroG@dpg-d6taun0gjchc73carf8g-a.oregon-postgres.render.com/tasksappdb')
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
