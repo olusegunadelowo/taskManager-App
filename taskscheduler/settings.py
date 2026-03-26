@@ -104,10 +104,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tasksappDB',
-        'USER': 'postgres',
-        'PASSWORD': 'Ayonitemi!1',
-        'HOST': 'localhost',
-        'PORT': '5433',
+        #'USER': 'postgres', 
+        'USER': 'tasksappdb_user',
+        #'PASSWORD': 'Ayonitemi!1',
+        'PASSWORD': '8B9pfy3ffaE0wlekW7rtedADhUtwIroG',
+        #'HOST': 'localhost',
+        'HOST': 'dpg-d6taun0gjchc73carf8g-a.oregon-postgres.render.com',
+        #'PORT': '5433',
+        'PORT': '5432',
        
     }
 }
