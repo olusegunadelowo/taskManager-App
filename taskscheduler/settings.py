@@ -22,16 +22,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_USER_PASSWORD'),
-        'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT'),
-    }
-}
+#DATABASES = {
+    #'default': {
+        #'ENGINE': 'django.db.backends.postgresql',
+        #'NAME': os.getenv('DB_NAME'),
+        #'USER': os.getenv('DB_USER'),
+        #'PASSWORD': os.getenv('DB_USER_PASSWORD'),
+        #'HOST': os.getenv('DB_HOST'),
+        #'PORT': os.getenv('DB_PORT'),
+    #}
+#}
 
 
 
@@ -99,17 +99,17 @@ WSGI_APPLICATION = 'taskscheduler.wsgi.application'
     #}
 #}
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tasksappDB',
-        'USER': 'postgres',
-        'PASSWORD': 'Ayonitemi!1',
-        'HOST': 'localhost',
-        'PORT': '5433',
+#DATABASES = {
+    #'default': {
+        #'ENGINE': 'django.db.backends.postgresql',
+        #'NAME': 'tasksappDB',
+        #'USER': 'postgres',
+        #'PASSWORD': 'Ayonitemi!1',
+        #'HOST': 'localhost',
+        #'PORT': '5433',
        
-    }
-}
+    #}
+#}
 
 
 # Password validation
